@@ -1,0 +1,101 @@
+body {
+    background-color: #0A0D10;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    max-width: 700px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 0 15px; /* Equal left and right padding */
+}
+nav ul li a {
+    display: block;
+    padding: 10px 30px;
+  
+    text-align: center;
+    text-decoration: none;
+    color: #F0F2F8;
+    font-weight: bold;
+    font-family: inter;
+    font-size: 14px;
+}
+
+.name {
+    font-family: Spicy rice;
+    background: linear-gradient(to right, #362417, #9b59b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.maincontainer {
+
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: top;
+    
+}
+.memoji {
+    width: 10em;
+    height: auto;
+}
+
+.aboutme {
+    background-color: #0D1117;
+    width: 30em;
+    height: 15em;
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    color: #F0F2F8;
+    font-family: Inter;
+    padding: 20px;
+    margin-right: 10px;
+
+}
+
+.aboutme span {
+    color: #F0F2F8;
+    font-size: 30px;
+    font-family: Spicy rice;
+}
+
+.rightside {
+    display: flex;
+}
+
+.googlemap img {
+    width: 20em;
+    height: 17.5em;
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.kobe img {
+    width: 20em;
+    height: 35em;
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-left: 10px;
+}
