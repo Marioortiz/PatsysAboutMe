@@ -5,6 +5,15 @@ body {
     padding: 0;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+}
+
+
 nav {
     
     border: 2px solid #30363D;
@@ -12,6 +21,9 @@ nav {
     max-width: 700px;
     text-decoration: none;
     display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 nav ul {
@@ -46,12 +58,10 @@ nav ul li a {
     padding: 50px;
 }
 
-.maincontainer {
+.fullspan {
 
     display: flex;
     justify-content: center; /* Centers horizontally */
-    align-items: top;
-    
 }
 .memoji {
     width: 10em;
@@ -60,14 +70,15 @@ nav ul li a {
 
 .aboutme {
     background-color: #0D1117;
-    width: 30em;
-    height: 15em;
+    width: 30rem;
+    height: 15rem;
     border: 2px solid #30363D;
     border-radius: 30px;
     color: #F0F2F8;
     font-family: Inter;
     padding: 20px;
-    margin-right: 10px;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
 
 }
 
@@ -77,25 +88,131 @@ nav ul li a {
     font-family: Spicy rice;
 }
 
-.rightside {
-    display: flex;
-}
-
-.googlemap img {
-    width: 20em;
-    height: 17.5em;
-    border: 2px solid #30363D;
-    border-radius: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.kobe img {
-    width: 20em;
-    height: 35em;
+.music img {
+    width: 15.5rem;
+    height: 17.5rem;
     border: 2px solid #30363D;
     border-radius: 30px;
     object-fit: cover;
-    margin-left: 10px;
+    margin-top: .5rem;
+    margin-right: .5rem;
+}
+
+.myspace img {
+    width: 16rem;
+    height: 17.5rem;
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    m
+}
+
+.leftsidesecondrow {
+    display: flex;
+}
+
+.quote p {
+    width: 32.4rem;
+    height: 15rem;
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: .5rem;
+    color: #F0F2F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Spicy rice;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.rightsidemiddle {
+ 
+}
+
+.googlemap img {
+    width: 16rem;
+    height: 17.5rem;
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    object-fit: cover;
+}
+
+.book  {
+    width: 16rem;
+    height: 33em;
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    background-image: url('/images/book.png');
+    background-repeat: repeat; 
+    background-size: 300px 300px;
+}
+
+
+.kobe img {
+    width: 20em;
+    height: 36.4em;
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-left: .5rem;
+}
+div .favcolor {
+    width: 20em;
+    height: 14.5rem;
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    background-color: black;
+    color: #F0F2F8;
+    font-family: Inter;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.coffee img {
+    width: 20em;
+    height: 14.5rem;
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-top: .5rem;
+    margin-right: .5rem;
+}
+
+.tvshow img {
+    width: 34em;
+    height: 14.5rem;
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.foodie img {
+    idth: 20em;
+    height: 14.5rem;
+    border: 2px solid #30363D;
+    border-radius: 30px;
+    margin-left: .5rem;
+    margin-top: ,5rem;
 }
