@@ -1,1 +1,2 @@
 # PatsysAboutMe
+This site is a personal showcase dedicated to my team partner, Patsy Morales. It presents her favorite music, colors, quotes, shows, books, and more, all organized in a sleek, bento-style layout. The design was inspired by Patsy’s preference for minimalistic websites with simple color schemes. Additionally, the bento format was chosen after  Patsy mentioned she prefers minimalistic website with not too many colors and also after studying CSS flex and noticing that bento-style visuals were commonly used to demonstrate flexbox concepts effectively.
