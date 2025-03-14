@@ -56,6 +56,7 @@ nav ul li a {
     display: inline-block;
     font-size: 30px;
     padding: 50px;
+
 }
 
 .fullspan {
@@ -255,4 +256,112 @@ div .favcolor {
 ::-webkit-scrollbar-thumb {
     background-color: #830505;
     border-radius: 10px; 
+}
+
+
+
+
+/* BEGIN HOVER GLOW BELOW */
+
+/* hover effect */
+.aboutme {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.aboutme:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Soft glow */
+}
+
+/* hover effect */
+.music img{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.music img:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Soft glow */
+}
+
+/* hover effect */
+.myspace img{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+/* Hover effect for sections */
+.myspace img:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Soft glow */
+}
+
+/* hover effect */
+.quote p{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+/* Hover effect for sections */
+.quote p:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Soft glow */
+}
+/* hover effect */
+.googlemap img{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+/* Hover effect for sections */
+.googlemap img:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Soft glow */
+}
+/* hover effect */
+.book{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+/* Hover effect for sections */
+.book:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Soft glow */
+}
+/* hover effect */
+.kobe img{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+/* Hover effect for sections */
+.kobe img:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Soft glow */
+}
+/* hover effect */
+.favcolor{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+/* Hover effect for sections */
+.favcolor:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Soft glow */
+}
+/* hover effect */
+.coffee img{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+/* Hover effect for sections */
+.coffee img:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Soft glow */
+}
+/* hover effect */
+.tvshow img{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+/* Hover effect for sections */
+.tvshow img:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Soft glow */
+}
+/* hover effect */
+.foodie img{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+/* Hover effect for sections */
+.foodie img:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Soft glow */
 }
