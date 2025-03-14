@@ -61,7 +61,7 @@ nav ul li a {
 .fullspan {
 
     display: flex;
-    justify-content: center; /* Centers horizontally */
+    justify-content: center; 
 }
 .memoji {
     width: 10em;
@@ -215,4 +215,44 @@ div .favcolor {
     border-radius: 30px;
     margin-left: .5rem;
     margin-top: ,5rem;
+}
+
+.secondcontainer {
+    display: flex;
+    justify-content: center;
+}
+.media h1 {
+    font-family: Spicy rice;
+    background: linear-gradient(to right, #362417, #9b59b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-self: center;
+    font-size: 50px;
+    padding: 50px;
+    padding-top: 200px;
+}
+
+
+.secondcontainer .book {
+    margin-right: .5rem;
+    height: 36rem;
+}
+
+.secondcontainer .music {
+    margin-left: .5rem;
+}
+
+.secondcontainer .myspace {
+    height: 30rem;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #830505;
+    border-radius: 10px; 
 }
